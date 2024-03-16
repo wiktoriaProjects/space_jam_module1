@@ -1,0 +1,59 @@
+424423@l5n13 MINGW64 /c/Users/424423/chumury_Tutorial (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        player_data.csv
+        player_data_final.csv
+        space-jam-anl.ipynb
+        space_jam_anl2.ipynb
+        tune_squad.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+424423@l5n13 MINGW64 /c/Users/424423/chumury_Tutorial (master)
+$ git add *
+warning: in the working copy of 'player_data.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'space-jam-anl.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'space_jam_anl2.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tune_squad.csv', LF will be replaced by CRLF the next time Git touches it
+
+424423@l5n13 MINGW64 /c/Users/424423/chumury_Tutorial (master)
+$ git commit -m "try"
+[master (root-commit) d4fbd73] try
+ 5 files changed, 7426 insertions(+)
+ create mode 100644 player_data.csv
+ create mode 100644 player_data_final.csv
+ create mode 100644 space-jam-anl.ipynb
+ create mode 100644 space_jam_anl2.ipynb
+ create mode 100644 tune_squad.csv
+
+424423@l5n13 MINGW64 /c/Users/424423/chumury_Tutorial (master)
+$ git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+424423@l5n13 MINGW64 /c/Users/424423/chumury_Tutorial (master)
+$ git push --set-upstream origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 509.32 KiB | 10.39 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/wiktoriaProjects/chumury_Tutorial.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+424423@l5n13 MINGW64 /c/Users/424423/chumury_Tutorial (master)
+$
